@@ -25,7 +25,7 @@ before_script:
   - npm install enhanced-resolve@3.3.0
 
 script:
-  - ng test
+  - ng test --watch=false
   - ng build --prod
 
 after_success:
